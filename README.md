@@ -1,0 +1,10 @@
+# 바닐라 JS로 그림 앱 만들기
+
+## 2023.10.25 ~
+
+### Records
+
+- #0 INTRODUCTION 23.10.25
+- #1 THE CANVAS API 23.10.25
+- #2 PAINTING BOARD
+- #3 MEME MAKER
