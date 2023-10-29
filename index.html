@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas></canvas>
-    <input id="line-width" type="range" min="1" max="10" value="5" step="0.5" />
-
-    <div>
+    <div class="color-options">
       <input type="color" id="color" />
 
       <div
@@ -74,11 +71,33 @@
       ></div>
     </div>
 
-    <button id="mode-btn">Draw</button>
+    <canvas></canvas>
 
-    <button id="destroy-btn">Destroy</button>
+    <div class="btns">
+      <input
+        id="line-width"
+        type="range"
+        min="1"
+        max="10"
+        value="5"
+        step="0.5"
+      />
 
-    <button id="eraser-btn">Erase</button>
+      <button id="mode-btn">🩸 Draw</button>
+
+      <button id="destroy-btn">💣 Destroy</button>
+
+      <button id="eraser-btn">❌ Erase</button>
+
+      <label for="file">
+        ⬆ Add Photo
+        <input type="file" accept="image/*" id="file" />
+      </label>
+
+      <input type="txt" placeholder="Add text here... :)" id="text" />
+
+      <button id="save">🖼️ Save image</button>
+    </div>
 
     <script src="app.js"></script>
   </body>
